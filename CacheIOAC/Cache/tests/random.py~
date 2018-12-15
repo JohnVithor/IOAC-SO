@@ -1,0 +1,14 @@
+import random
+
+m = 4
+n = 16
+matriz = []
+
+for i in range(m):
+	s = [random.randint(0, 100) for k in range(n)]
+	matriz.append(s)
+
+for i in range(n):
+	for j in range(m):
+		print matriz[j][i],
+	print '\n'

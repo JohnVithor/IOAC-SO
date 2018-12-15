@@ -1,0 +1,6 @@
+beq $s0, $s1, 5
+add $s0, $s0, $s1
+sub $s1, $s1 $s0
+bne $s0, $s1, 1
+sw $s0, 0($t1)
+sw $s1, 4($t1)
